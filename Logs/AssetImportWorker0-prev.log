@@ -1,0 +1,1812 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8029 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/acer/Desktop/Group5_Project_CS662
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61330
+Successfully changed project path to: C:/Users/acer/Desktop/Group5_Project_CS662
+C:/Users/acer/Desktop/Group5_Project_CS662
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 83.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path D:/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/acer/Desktop/Group5_Project_CS662/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   26.21.14.4137
+Initialize mono
+Mono path[0] = 'D:/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001212 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2343ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (2089ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1120ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (918ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3652 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.7 MB.
+System memory in use after: 159.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4073.
+Total: 5.251200 ms (FindLiveObjects: 0.340900 ms CreateObjectMapping: 0.226800 ms MarkObjects: 4.584400 ms  DeleteObjects: 0.098000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.ml-agents/package.json
+  artifactKey: Guid(e13b73fbfc8e74e4d87af46bf55d7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ml-agents/package.json using Guid(e13b73fbfc8e74e4d87af46bf55d7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cce13b42280e6cc88aaf7159ecd92e') in 0.063460 seconds 
+  Import took 0.069475 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1581ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1349ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.5 MB.
+System memory in use after: 150.7 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 4047.
+Total: 5.224900 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.211300 ms MarkObjects: 4.657900 ms  DeleteObjects: 0.052100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 120.327603 seconds.
+  path: Packages/com.unity.ml-agents/package.json
+  artifactKey: Guid(e13b73fbfc8e74e4d87af46bf55d7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ml-agents/package.json using Guid(e13b73fbfc8e74e4d87af46bf55d7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415203af5f59a617268a50957cae0069') in 0.026300 seconds 
+  Import took 0.032823 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010780 seconds.
+Begin MonoManager ReloadAssembly
+A scripted class has a different serialization layout when loading. (Read 48 bytes but expected 76 bytes)
+Did you change any of your scripts when entering playmode?
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1768ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1539ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (694ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (513ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.5 MB.
+System memory in use after: 148.7 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 4008.
+Total: 4.643600 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.203000 ms MarkObjects: 4.077500 ms  DeleteObjects: 0.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.335328 seconds.
+  path: Assets/Aircraft/Scenes/Desert.unity
+  artifactKey: Guid(7b0fb825a6602f140b3583e19a723348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Scenes/Desert.unity using Guid(7b0fb825a6602f140b3583e19a723348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f4751f9bfea6f53289f005d72e6dde') in 0.024919 seconds 
+  Import took 0.032007 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009646 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.591 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1591ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1356ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (469ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4010.
+Total: 5.285400 ms (FindLiveObjects: 0.292800 ms CreateObjectMapping: 0.202400 ms MarkObjects: 4.749400 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65.379507 seconds.
+  path: Assets/Aircraft/Scenes/Training.unity
+  artifactKey: Guid(2e7d204d5709f8243a36d781ea12f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Scenes/Training.unity using Guid(2e7d204d5709f8243a36d781ea12f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2b5bf1f63ad6cecbf373f9755c69fd') in 0.022738 seconds 
+  Import took 0.029268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2105.101541 seconds.
+  path: Assets/Aircraft/Scripts/AircraftArea.cs
+  artifactKey: Guid(bff51754514636640b39a9891852035e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Scripts/AircraftArea.cs using Guid(bff51754514636640b39a9891852035e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c6af4459be06b9f869dddc68c63722') in 0.013753 seconds 
+  Import took 0.022682 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022543 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6555ms)
+		BeginReloadAssembly (4043ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (548ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2234ms)
+		EndReloadAssembly (2286ms)
+			LoadAssemblies (594ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (848ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (776ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (14ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4012.
+Total: 13.157000 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 0.238200 ms MarkObjects: 12.482900 ms  DeleteObjects: 0.086700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018137 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2562ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2223ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (953ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (829ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (625ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4014.
+Total: 8.095500 ms (FindLiveObjects: 0.514200 ms CreateObjectMapping: 0.600600 ms MarkObjects: 6.929400 ms  DeleteObjects: 0.049700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5309.747524 seconds.
+  path: Assets/Aircraft/Prefabs/AirplaneBlue Variant.prefab
+  artifactKey: Guid(bd6012b054767d6468bc8f79ad0eb549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Prefabs/AirplaneBlue Variant.prefab using Guid(bd6012b054767d6468bc8f79ad0eb549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439f46373871e36652814563c6a387d0') in 2.533365 seconds 
+  Import took 2.775770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001401 seconds.
+  path: Assets/Aircraft/Prefabs/AirplaneSilver Variant.prefab
+  artifactKey: Guid(3ec4a5aa502a4644e810232b7527b7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Prefabs/AirplaneSilver Variant.prefab using Guid(3ec4a5aa502a4644e810232b7527b7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eafb2156b21fc43c2e476af25252a4') in 0.040846 seconds 
+  Import took 0.054518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Aircraft/Prefabs/AirplanePlayer.prefab
+  artifactKey: Guid(e4c356eded257b64b83180d84475985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Prefabs/AirplanePlayer.prefab using Guid(e4c356eded257b64b83180d84475985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858cd19f6739d5be45a80dceaee92731') in 0.032183 seconds 
+  Import took 0.043840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Aircraft/Prefabs/AirplaneGreen Variant.prefab
+  artifactKey: Guid(9351e8e381463444fab4c7917cec3899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Prefabs/AirplaneGreen Variant.prefab using Guid(9351e8e381463444fab4c7917cec3899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e303c008ed2d7704eb899de9fe6913cd') in 0.033444 seconds 
+  Import took 0.045903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Aircraft/Prefabs/DesertArea.prefab
+  artifactKey: Guid(f7d8ac45e6de17445b998cf80dedf032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Prefabs/DesertArea.prefab using Guid(f7d8ac45e6de17445b998cf80dedf032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b46526f37c0e35a9feb5c4641bd57e7') in 0.126686 seconds 
+  Import took 0.141517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Aircraft/Prefabs/AirplaneLearning.prefab
+  artifactKey: Guid(134a6a26097168b46bcaea4ad8093e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Prefabs/AirplaneLearning.prefab using Guid(134a6a26097168b46bcaea4ad8093e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bc45149a651471a4072fcc08e6fab9') in 0.035362 seconds 
+  Import took 0.047504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2974.650291 seconds.
+  path: Assets/AircraftLearning.nn
+  artifactKey: Guid(b00d5e1f2f58d5843b88b7d9f821956a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AircraftLearning.nn using Guid(b00d5e1f2f58d5843b88b7d9f821956a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.barracuda@1.0.0\Barracuda\Editor\ONNXModelImporterEditor.cs:80 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <af1a2f671a98418f910899d70a717c00>:0 
+
+ -> (artifact id: '32fe145c614675f3be7af4eeaa3fdb49') in 2.314717 seconds 
+  Import took 2.458475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.280122 seconds.
+  path: Assets/Aircraft/Scenes/Desert.unity
+  artifactKey: Guid(7b0fb825a6602f140b3583e19a723348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Scenes/Desert.unity using Guid(7b0fb825a6602f140b3583e19a723348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664daccddbf314f4a6d5a44e72b687f0') in 0.032453 seconds 
+  Import took 0.047374 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012823 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5607ms)
+		BeginReloadAssembly (3279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (279ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2313ms)
+		EndReloadAssembly (2236ms)
+			LoadAssemblies (411ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (781ms)
+			ReleaseScriptCaches (32ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (847ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (646ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4064.
+Total: 16.553300 ms (FindLiveObjects: 0.348500 ms CreateObjectMapping: 0.206000 ms MarkObjects: 15.946900 ms  DeleteObjects: 0.050700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008778 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2662ms)
+		BeginReloadAssembly (407ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (310ms)
+		EndReloadAssembly (2179ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (393ms)
+				ProcessInitializeOnLoadAttributes (922ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4066.
+Total: 5.562200 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.201000 ms MarkObjects: 5.014900 ms  DeleteObjects: 0.033300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 240.362980 seconds.
+  path: Assets/Aircraft/Scenes/Imitation.unity
+  artifactKey: Guid(60fe07dbb66f6744c9366adb413c58b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aircraft/Scenes/Imitation.unity using Guid(60fe07dbb66f6744c9366adb413c58b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a934d5c27a157180c3d766a23cbe88d') in 0.190674 seconds 
+  Import took 0.209095 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010450 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1948ms)
+		BeginReloadAssembly (332ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1525ms)
+			LoadAssemblies (347ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (477ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4068.
+Total: 6.848300 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.198400 ms MarkObjects: 6.237600 ms  DeleteObjects: 0.088600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1313.794396 seconds.
+  path: Assets/aircraft2nn.demo
+  artifactKey: Guid(fad2d8639daa2f345843ffddc3b7b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aircraft2nn.demo using Guid(fad2d8639daa2f345843ffddc3b7b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7ccef977f0107d708a6de79f48405c') in 0.044508 seconds 
+  Import took 0.057900 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032508 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4398ms)
+		BeginReloadAssembly (364ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (3808ms)
+			LoadAssemblies (318ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1188ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1813ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (215ms)
+				ProcessInitializeOnLoadAttributes (1566ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4070.
+Total: 7.655900 ms (FindLiveObjects: 0.459500 ms CreateObjectMapping: 0.323700 ms MarkObjects: 6.808200 ms  DeleteObjects: 0.055400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1430.200542 seconds.
+  path: Assets/aircraft2nn_0.demo
+  artifactKey: Guid(20b53f9840e4044409f9bb0ed54f5727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aircraft2nn_0.demo using Guid(20b53f9840e4044409f9bb0ed54f5727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961c991980b4d28e6b2936df58fc959f') in 0.065635 seconds 
+  Import took 0.091279 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009418 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2512ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2231ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (681ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (663ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4072.
+Total: 6.470800 ms (FindLiveObjects: 0.567800 ms CreateObjectMapping: 0.371000 ms MarkObjects: 5.485800 ms  DeleteObjects: 0.044700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021202 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1856ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1623ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (482ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4074.
+Total: 6.385400 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.353000 ms MarkObjects: 5.581800 ms  DeleteObjects: 0.048100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 211.366791 seconds.
+  path: Assets/aircraft2nn_1.demo
+  artifactKey: Guid(030ceaa839b4a9c449323e7954f1804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aircraft2nn_1.demo using Guid(030ceaa839b4a9c449323e7954f1804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35ab8c9faef5b9beea767671d9a581f') in 0.025252 seconds 
+  Import took 0.034015 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010163 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1834ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1594ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (699ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4076.
+Total: 5.824300 ms (FindLiveObjects: 0.346200 ms CreateObjectMapping: 0.232700 ms MarkObjects: 5.205400 ms  DeleteObjects: 0.039000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018132 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2051ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1831ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (879ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (722ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4078.
+Total: 5.111300 ms (FindLiveObjects: 0.373500 ms CreateObjectMapping: 0.220800 ms MarkObjects: 4.446500 ms  DeleteObjects: 0.069400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 649.260938 seconds.
+  path: Assets/aircraft2nn.demo
+  artifactKey: Guid(fad2d8639daa2f345843ffddc3b7b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aircraft2nn.demo using Guid(fad2d8639daa2f345843ffddc3b7b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e5f079a11c2ebb47e46382dfd89d76') in 0.018105 seconds 
+  Import took 0.025480 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.078104 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+Rethrow as TypeInitializationException: The type initializer for 'UnityEngine.InputSystem.InputSystem' threw an exception.
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+  at UnityEngine.InputSystem.InputSystemObject.OnBeforeSerialize () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystemObject.cs:24 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2929)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs Line: 2929)
+
+Assertion failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool)
+UnityEngine.InputSystem.InputManager:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs:90)
+UnityEngine.InputSystem.InputSystem:get_settings () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2522)
+UnityEngine.InputSystem.InputSystem:InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime) (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2931)
+UnityEngine.InputSystem.InputSystem:.cctor () (at Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputSystem.cs:2848)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/InputManager.cs Line: 90)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.InputSystem.InputSystem.InitializeInEditor (UnityEngine.InputSystem.LowLevel.IInputRuntime runtime) [0x00158] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2931 
+  at UnityEngine.InputSystem.InputSystem..cctor () [0x00000] in C:\Users\acer\Desktop\Group5_Project_CS662\Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\InputSystem.cs:2848 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2672ms)
+		BeginReloadAssembly (699ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (200ms)
+		EndReloadAssembly (1811ms)
+			LoadAssemblies (571ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (599ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (710ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4080.
+Total: 11.443900 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.333000 ms MarkObjects: 10.580400 ms  DeleteObjects: 0.072900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1817.112540 seconds.
+  path: Assets/aircraft2nn_0.demo
+  artifactKey: Guid(20b53f9840e4044409f9bb0ed54f5727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aircraft2nn_0.demo using Guid(20b53f9840e4044409f9bb0ed54f5727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4288af6731c6935a70b892e36c06c775') in 0.040979 seconds 
+  Import took 0.053574 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

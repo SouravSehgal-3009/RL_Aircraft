@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1652855196",
+        "python_version": "3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\acer\\Desktop\\Group5_Project_CS662\\myproj\\Scripts\\mlagents-learn config/trainer_config.yaml --run-id=aircraft02",
+        "mlagents_version": "0.29.0.dev0",
+        "mlagents_envs_version": "0.29.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0+cpu",
+        "numpy_version": "1.22.3",
+        "end_time_seconds": "1652855220"
+    },
+    "total": 23.974791200000002,
+    "count": 1,
+    "self": 0.0889778000000021,
+    "children": {
+        "run_training.setup": {
+            "total": 0.18783300000000014,
+            "count": 1,
+            "self": 0.18783300000000014
+        },
+        "TrainerController.start_learning": {
+            "total": 23.6979804,
+            "count": 1,
+            "self": 0.0016254999999958386,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 23.6962584,
+                    "count": 1,
+                    "self": 23.6962584
+                },
+                "trainer_threads": {
+                    "total": 3.1000000006997652e-06,
+                    "count": 1,
+                    "self": 3.1000000006997652e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 9.34000000007984e-05,
+                    "count": 1,
+                    "self": 9.34000000007984e-05
+                }
+            }
+        }
+    }
+}
