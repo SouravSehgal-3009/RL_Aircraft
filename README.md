@@ -68,6 +68,7 @@ We are thinking of adding Virtual Reality in the game in the future.
 
 Made by:
 [Sourav Sehgal](https://github.com/SouravSehgal-3009)
+
 [Rohan Raj Kansal](https://github.com/BeingHomosapien)
 
 
